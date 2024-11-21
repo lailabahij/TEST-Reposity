@@ -1,0 +1,75 @@
+li{
+    list-style: none;
+    display: inline;
+    padding:8px;
+   
+}
+a{
+    text-decoration: none;
+    color: #C0392B;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    transition: 0.5s;
+}
+#list{
+    margin-top: 5px;
+}
+nav{
+   display: flex;
+    margin: auto;
+    background-color: #F8F4E3;
+    padding: 5px;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.414);
+    
+}
+#logo{
+    margin-right: auto;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+*{
+    margin: 0;
+   
+}
+a:hover{
+   color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#home{
+    color: #D4AC0D;
+    text-align: center; 
+}
+body{
+    background-color: #F8F4E3;
+}
+iframe{
+    background-color: #f0dca5;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+.footer-distributed{
+	color:  #5D4037;
+	background-color: #f0dca5;
+}
+.img{
+	display: flex;
+}
+.im1{
+	
+    padding: 10px;
+     width: 250px;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    cursor: not-allowed;
+    
+}
